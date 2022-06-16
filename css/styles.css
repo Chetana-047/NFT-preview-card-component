@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Outfit:wght@100;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+    background-color: hsl(216, 50%, 16%);
+}
+
+h2,
+h3 {
+    font-weight: 400;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 700px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* conatiner*/
+
+.main-div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub-div {
+    background-color: hsla(217, 54%, 11%, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container {
+    background-color: hsla(217, 54%, 11%, 0.5);
+    padding: 0px 20px 45px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    background-color: hsla(215, 32%, 27%, 0.7);
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.box img {
+    border-radius: 15px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box p {
+    font-size: 17px;
+}
+
+.box h3 {
+    padding: 18px 0;
+    color: #fff;
+    font-size: 22px;
+}
+
+.box h3 a {
+    color: #fff;
+}
+
+.box img:hover,
+.box h3 a:hover,
+.col:hover {
+    /* cursor: pointer; */
+    color: hsl(178, 100%, 50%);
+}
+
+.img-box {
+    position: relative;
+}
+
+.overlay {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    background: hsl(178, 100%, 50%, 0.6);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 110px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.overlay img {
+    height: 40px;
+    width: 40px;
+}
+
+.img-box:hover .overlay {
+    opacity: 1;
+}
+
+
+/* creation*/
+
+.creation {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    padding: 18px 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.creation img {
+    width: 12%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.creation h4 {
+    padding-left: 10px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.col {
+    color: #fff;
+}
+
+
+/* icon*/
+
+.icon {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.icon1 img {
+    height: 16px;
+    width: 10px;
+    margin-right: 4px;
+}
+
+.icon2 img {
+    height: 15px;
+    width: 15px;
+    margin-right: 4px;
+}
+
+.icon1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.icon2 {
+    color: hsl(215, 51%, 70%);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    text-align: center;
+}
