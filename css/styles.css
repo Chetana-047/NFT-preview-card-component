@@ -190,3 +190,11 @@ h3 {
     margin: 0 auto;
     text-align: center;
 }
+
+/* Media Query*/
+
+@media (max-width:478px) {
+    .card .image:hover::before {
+        opacity: 0;
+    }
+}
